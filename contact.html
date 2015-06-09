@@ -12,14 +12,14 @@
         <link rel="stylesheet" href="css/main.css"> -->
     </head>
     <body>
-      <header>
+      <header role="banner">
         <h1>Est Laborum</h1>
-        <nav>
+        <nav role="navigation">
           <a href="index.html">Home</a>
           <a href="blog.html">Blog</a>
         </nav>
       </header>
-      <main>
+      <main role="main">
         <section>
           <h1>Contact Information</h1>
           <h2>Est Laborum Contributors</h2>
@@ -38,15 +38,15 @@
             <li>Seattle, WA 98109</li>
           </ul>
           <section>
-            <form>
-              <input type="text" value="name"/>
-              <input type="text" value="email"/>
-              <input type="text" value="Message"/>
-              <button>Send</button>
+            <form role="form">
+              <input id="sender_name" role="textbox" aria-required="true" type="text" value="Your Name"/>
+              <input id="sender_email" role="textbox" aria-required="true" type="email" name="email" value="Your email"/>
+              <input id="message_content" role="textbox" aria-required="true" type="text" name="message" value="Message"/>
+              <button id="send_message" role="button">Send</button>
             </form>
           </section>
         </section>
-        <footer>
+        <footer role="contentinfo">
           <p>&copy 2015 - Fellow Coders LLC</p>
         </footer>
       </main>
