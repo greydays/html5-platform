@@ -45,16 +45,14 @@ header {
   padding-bottom: 10px;
   padding-top: 15px;
   float: left;
-
 }
 .navlink {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  color:#3f5364;
+  color: #3f5364;
   text-transform: uppercase;
   padding: 30px;
 }
-
 .flex-container {
   display:flex;
   flex-direction: row;
@@ -62,6 +60,9 @@ header {
   justify-content: flex-end;
   align-content: flex-end;
   align-items: flex-end;
+}
+.this_page {
+  color: #fd902d;
 }
 /*----------BODY------------*/
 
@@ -76,13 +77,20 @@ header {
 }
 /*----------FOOTER------------*/
 .bottom {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
   font-size: 14px;
-  margin-top: 30px;
+  margin-top: 50px;
   padding-bottom: 20px;
-  padding-left:40%;
-  color:#a6a6a6;
-
-
+  color: #a6a6a6;
+  clear: both;
+  border-top: 1px solid #a6a6a6;
+}
+footer p {
+  margin-left: 0px;
 }
 /*----------POSTS------------*/
 .post {
@@ -101,11 +109,8 @@ header {
   font-family: 'Montserrat', sans-serif;
   color: #3f5364;
 }
-
 .email {
   margin: 10px;
-
-
 }
 .inline {
     display: inline;
