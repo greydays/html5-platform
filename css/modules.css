@@ -1,43 +1,13 @@
-.order_form {
-  float: right;
-  margin-right: 20px;
-}
-.photobooth{
-  float: left;
-  margin-left: 20px;
-}
+
 li, ol {
   list-style: none;
 }
-li {
+form li {
  background-color: #f6f6f6;
  padding: 2px;
  margin: 2px;
  border-radius: 2px;
  min-width: 220px;
-}
-form {
-  cursor: pointer;
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  background-color: #ddd;
-  width: 274px;
-  padding: 20px;
-  margin-left: 20px;
-  border-radius: 8px;
-}
-legend {
-  font-weight: bold;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-fieldset {
-  border: 2px solid black;
-  border-radius: 4px;
-  padding: 10px;
-  margin-top: 10px;
-  width: 250px;
-  background-color: #dddddd;
 }
 input:not([type=radio]){
   margin: 2px;
@@ -46,11 +16,86 @@ input:not([type=radio]){
 .submit {
   text-align: center;
 }
-button {
+/*----------Order Page------------*/
+.order_button {
   width: 200px;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.order_form {
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  background-color: #ddd;
+  width: 274px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  float: right;
+}
+.order_legend {
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.order_fieldset {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 250px;
+  background-color: #dddddd;
+}
+/*----------Contact Page------------*/
+.contact_form {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #dddddd;
+}
+.contact_legend {
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.contact_fieldset {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #dddddd;
+}
+.contact_button {
+  width: 100px;
+  font-size: 18px;
+  text-transform: uppercase;
+  float:right;
+  margin-right: 3px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#contact_name {
+  width: 300px;
+  padding-left: 5px;
+}
+#contact_email {
+  width:300px;
+  padding-left: 5px;
+}
+#contact_message {
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+/*----------Photo Booth------------*/
+.photobooth{
+  float: left;
+  margin-left: 20px;
 }
 .shirt_blank {
   background-image: url("../images/shirt.jpg");
