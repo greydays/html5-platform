@@ -1,32 +1,34 @@
 <!doctype html>
 <html class="no-js" lang="EN">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Est Laborum - Store</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Est Laborum - Store</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/modules.css">
+    </head>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/modules.css">
-  </head>
   <body>
     <header role="banner">
-      <h1>Est Laborum</h1>
-      <nav role="navigation">
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
+        <img class="logo" src ="http://i.imgur.com/JdY9x7e.png">
+        <nav role="navigation" class="flex-container">
+          <a class="navlink flex-item-1" href="index.html">Home</a>
+          <a class="navlink flex-item-2"href="blog.html">Blog</a>
+          <a class="navlink flex-item-3"href="contact.html">Contact</a>
+        </nav>
+      </header>
     <main role="main">
-      <section>
+      <section class="shirt">
         <h1>T-shirts!</h1>
-        <img src="/images/tshirt.png" alt="Est Laboram logo T-shirt">
         <p>Brand new! 100% Cotton</p>
+        <img src="http://i.imgur.com/jBqMNGJ.png" alt="Est Laboram logo T-shirt">
+
       </section>
-      <section class="photobooth">
+     <!-- <section class="photobooth">
         <ol>
           <li>
             <video id="video" width="320" height="240" autoplay></video>
@@ -38,8 +40,8 @@
             <canvas id="canvas" width="320" height="240"></canvas>
           </li>
         </ol>
-      </section>
-      <section class="order_form">
+      </section> -->
+      <section class="order_form orderbox">
         <form role="form">
           <fieldset>
           <legend>T-shirt Size and Unlimited Color!</legend>
@@ -143,9 +145,9 @@
           </fieldset>
         </form>
       </section>
-      <footer role="contentinfo">
-        <p>&copy 2015 - Fellow Coders LLC</p>
-      </footer>
+      <footer class="bottom bottomorder" role="contentinfo">
+          <p>&copy 2015 - Fellow Coders LLC</p>
+        </footer>
     </main>
     <script type="text/javascript" src="js/photo.js"></script>
   </body>

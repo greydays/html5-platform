@@ -6,51 +6,54 @@
         <title>Est Laborum - Contact</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
       <header role="banner">
-        <h1>Est Laborum</h1>
-        <nav role="navigation">
-          <a href="index.html">Home</a>
-          <a href="blog.html">Blog</a>
-          <a href="orderform.html">Store</a>
+        <img class="logo" src ="http://i.imgur.com/JdY9x7e.png">
+        <nav role="navigation" class="flex-container">
+          <a class="navlink flex-item-1" href="index.html">Home</a>
+          <a class="navlink flex-item-2"href="blog.html">Blog</a>
+          <a class="navlink flex-item-3"href="orderform.html">Store</a>
         </nav>
       </header>
       <main role="main">
-        <section>
-          <h1>Contact Information</h1>
+        <section class="contributors">
+          <h1 class="contact">Contact US</h1>
           <h2>Est Laborum Contributors</h2>
-          <ul>
-            <li>Matt Nickel</li>
-            <li><a href="mailto:">email@gmail.com</a></li>
+          <ul class="email">
+            <ul>
+              <li class="inline">Matt Nickel</li>
+              <li class="inline"><a href="mailto:">email@gmail.com</a></li>
+            </ul>
+            <ul>
+              <li class="inline">Ryan Flaherty</li>
+              <li class="inline"><a href="mailto:">email@gmail.com</a></li>
+            </ul>
           </ul>
-          <ul>
-            <li>Ryan Flaherty</li>
-            <li><a href="mailto:">email@gmail.com</a></li>
+          <h2>Headquarters</h2>
+          <ul class="email">
+            <li class="inline">511 Boren Ave N</li>
+            <li class="inline">Seattle, WA 98109</li>
+
           </ul>
-          <ul>
-            <li>Address</li>
-            <li>Est Laborum Contributors</li>
-            <li>511 Boren Ave N</li>
-            <li>Seattle, WA 98109</li>
-          </ul>
+        </section>
           <section>
-            <form role="form">
-              <label for="sender_name">First/Last Name:</label>
-              <input id="sender_name" role="textbox" aria-required="true" type="text" placeholder="Name" title="First/Last Name" autofocus/>
-              <label for="sender_email">Include your email address:</label>
-              <input id="sender_email" role="textbox" aria-required="true" type="email" name="email" title="email address" placeholder="email"/>
-              <label for="message_content">Questions, comments, and compliments:</label>
-              <input id="message_content" role="textbox" aria-required="true" type="text" name="message" placeholder="Message"/>
+            <form class="contact" role="form">
+              <fieldset>
+              <legend>Personal Information</legend>
+              <ul>
+                <li><label for="sender_name">First/Last Name:</label><input id="sender_name" role="textbox" aria-required="true" type="text" placeholder="Name" title="First/Last Name" autofocus/></li>
+                <li><label for="sender_email">Include your email address:</label><input id="sender_email" role="textbox" aria-required="true" type="email" name="email" title="email address" placeholder="email"/></li>
+                <li><label for="message_content">Questions, comments, and compliments:</label><input id="message_content" role="textbox" aria-required="true" type="text" name="message" placeholder="Message"/></li>
               <button id="send_message" title="enter your message here" role="button">Send</button>
+              </fieldset>
             </form>
           </section>
         </section>
-        <footer role="contentinfo">
+        <footer class="bottom" role="contentinfo">
           <p>&copy 2015 - Fellow Coders LLC</p>
         </footer>
       </main>
