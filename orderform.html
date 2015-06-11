@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="EN">
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Est Laborum - Store</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/modules.css">
+    </head>
+
+  <body>
+    <header role="banner">
+        <img class="logo" src ="http://i.imgur.com/JdY9x7e.png">
+        <nav role="navigation" class="flex-container">
+          <a class="navlink flex-item-1" href="index.html">Home</a>
+          <a class="navlink flex-item-2"href="blog.html">Blog</a>
+          <a class="navlink flex-item-3"href="contact.html">Contact</a>
+        </nav>
+      </header>
+    <main role="main">
+      <section class="shirt">
+        <h1>T-shirts!</h1>
+        <p>Brand new! 100% Cotton</p>
+        <img src="http://i.imgur.com/jBqMNGJ.png" alt="Est Laboram logo T-shirt">
+
+      </section>
+     <!-- <section class="photobooth">
+        <ol>
+          <li>
+            <video id="video" width="320" height="240" autoplay></video>
+          </li>
+          <li>
+            <button id="snap">Snap Photo</button>
+          </li>
+          <li class="shirt_blank">
+            <canvas id="canvas" width="320" height="240"></canvas>
+          </li>
+        </ol>
+      </section> -->
+      <section class="order_form orderbox">
+        <form role="form">
+          <fieldset>
+          <legend>T-shirt Size and Unlimited Color!</legend>
+            <ol>
+              <li>
+                <label for="shirt_size">Shirt Size</label>
+                <select id="shirt_size">
+                  <optgroup label="Unisex/Men">
+                    <option value="men_S">Unisex Small</option>
+                    <option value="men_M">Unisex Medium</option>
+                    <option value="men_L">Unisex Large</option>
+                    <option value="men_XL">Unisex XL</option>
+                    <option value="men_XXL">Unisex XXL</option>
+                    <option value="men_XXXL">Unisex XXXL</option>
+                  </optgroup>
+                  <optgroup label="Women">
+                    <option value="women_XS">Women's XS</option>
+                    <option value="women_S">Women's Small</option>
+                    <option value="women_M">Women's Medium</option>
+                    <option value="women_L">Women's Large</option>
+                    <option value="women_XL">Women's XL</option>
+                  </optgroup>
+                </select>
+              </li>
+              <li>
+                <label for="color">Pick a color!</label>
+                <input id="color" type="color" name="color">
+              </li>
+          </fieldset>
+          <fieldset>
+            <legend>Billing Information</legend>
+            <ol>
+              <li>
+                <label for='name'>Name</label>
+                <input id="name" name="name" type="text" placeholder="First/Last Name" required>
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="example@domain.com" required>
+              </li>
+              <li>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required>
+              </li>
+            </ol>
+          </fieldset>
+          <fieldset>
+            <legend>Delivery Address</legend>
+            <ol>
+              <li>
+                <label for="address_1">Address 1</label>
+                <input id="address_1" name="address_1" required></input>
+              </li>
+              <li>
+                <label for="address_2">Address 2</label>
+                <input id="address_2" name="address_2" required></input>
+              </li>
+              <li>
+                <label for="city">City</label>
+                <input id="city" name="city" required></input>
+              </li>
+              <li>
+                <label for="state">State/Province</label>
+                <input id="state" name="state" required></input>
+              </li>
+              <li>
+                <label for="zipcode">Zip code</label>
+                <input id="zipcode" name="zipcode" type="text" required>
+              </li>
+              <li>
+                <label for="country">Country</label>
+                <input id="country" name="country" type="text" required>
+              </li>
+            </ol>
+          </fieldset>
+          <fieldset>
+            <legend>Card Info</legend>
+            <ol>
+              <li>
+                <input id="visa" name="cardtype" type="radio">
+                <label for="visa">VISA</label>
+                <input id="mastercard" name="cardtype" type="radio">
+                <label for="mastercard">Mastercard</label>
+              </li>
+              <li>
+                <label for="cardnumber">Card number</label>
+                <input id="cardnumber" name="cardnumber" type="number" placeholder="0000000000000000" required>
+              </li>
+              <li>
+                <label for="csc">Security code</label>
+                <input id="csc" name="csc" type="number" placeholder="012" required>
+              </li>
+              <li>
+                <label for="namecard">Name on card</label>
+                <input id="namecard" name="namecard" type="text" placeholder="Eactly as it appears on the card" required>
+              </li>
+            </ol>
+          </fieldset>
+          <fieldset class="submit">
+            <button type='submit'>Purchase</button>
+          </fieldset>
+        </form>
+      </section>
+      <footer class="bottom bottomorder" role="contentinfo">
+          <p>&copy 2015 - Fellow Coders LLC</p>
+        </footer>
+    </main>
+    <script type="text/javascript" src="js/photo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+
+/*----------BASE------------*/
+
+html {
+  margin: 10px;
+  }
+h1, h2, h3, time, li{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 35px;
+  color: #3f5364;
+}
+p {
+  margin: 10px;
+  font-family: arial;
+  margin-left: 35px;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+a:link {
+    color: #3f5364
+}
+time {
+  font-size: 14px;
+}
+video {
+  margin-left: 200px;
+}
+.blog {
+  display: inline;
+}
+/*----------HEADER------------*/
+header {
+  background-color: #dddddd;
+}
+.logo {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  float: left;
+
+}
+.navlink {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color:#3f5364;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+/*----------BODY------------*/
+
+.city {
+  float:right;
+  margin-top: 25px;
+  margin-right:25px;
+}
+.front {
+  width: 30%;
+
+}
+/*----------FOOTER------------*/
+.bottom {
+  font-size: 14px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-left:40%;
+  color:#a6a6a6;
+
+
+}
+/*----------POSTS------------*/
+.post {
+  padding: 5%;
+}
+.dolor, .tempor{
+  background-color: #f6f5f5
+}
+
+/*----------CONTACT------------*/
+.contributors {
+  margin: 5%;
+}
+.contact {
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f5364;
+}
+
+.email {
+  margin: 10px;
+
+
+}
+.inline {
+    display: inline;
+}
+/*----------ORDER FORM------------*/
+.shirt {
+  display: inline-block;
+}
+.orderbox {
+  margin-top: 5%;
+  margin-right: 10%;
+}
+
+
