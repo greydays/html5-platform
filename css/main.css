@@ -1,6 +1,5 @@
 
 /*----------BASE------------*/
-
 html {
   margin: 10px;
   }
@@ -23,9 +22,12 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-size: 18px;
+  color: #fd902d;
 }
-a:link {
-    color: #3f5364
+a {
+  color: #3f5364;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 time {
   font-size: 14px;
@@ -47,14 +49,11 @@ header {
   float: left;
 }
 .navlink {
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  color: #3f5364;
   text-transform: uppercase;
   padding: 30px;
 }
 .flex-container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-end;
@@ -65,18 +64,16 @@ header {
   color: #fd902d;
 }
 /*----------BODY------------*/
-
 .city {
-  float:right;
+  float: right;
   margin-top: 25px;
-  margin-right:25px;
+  margin-right: 25px;
 }
 .front {
   width: 30%;
-
 }
 /*----------FOOTER------------*/
-.bottom {
+footer {
   text-align: center;
   max-width: 600px;
   margin-left: auto;
@@ -96,24 +93,24 @@ footer p {
 .post {
   padding: 5%;
 }
-.dolor, .tempor{
+.dolor, .tempor {
   background-color: #f6f5f5
 }
-
+.top {
+  float: right;
+}
 /*----------CONTACT------------*/
 .contributors {
   margin: 5%;
 }
 .contact {
   margin: 10px;
-  font-family: 'Montserrat', sans-serif;
-  color: #3f5364;
 }
 .email {
   margin: 10px;
 }
 .inline {
-    display: inline;
+  display: inline;
 }
 /*----------ORDER FORM------------*/
 .shirt {
