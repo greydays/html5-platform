@@ -37,19 +37,21 @@
         </ul>
         <h2>Headquarters</h2>
         <ul class="email">
-          <li class="inline">511 Boren Ave N</li>
-          <li class="inline">Seattle, WA 98109</li>
+          <li>511 Boren Ave N</li>
+          <li>Seattle, WA 98109</li>
         </ul>
       </section>
         <section>
           <form class="contact" role="form">
-            <fieldset>
-            <legend>Personal Information</legend>
+            <fieldset class="contact_fieldset">
+            <legend class="contact_legend">Personal Information</legend>
             <ul>
-              <li><label for="sender_name">First/Last Name:</label><input id="sender_name" role="textbox" aria-required="true" type="text" placeholder="Name" title="First/Last Name" autofocus/></li>
-              <li><label for="sender_email">Include your email address:</label><input id="sender_email" role="textbox" aria-required="true" type="email" name="email" title="email address" placeholder="email"/></li>
-              <li><label for="message_content">Questions, comments, and compliments:</label><input id="message_content" role="textbox" aria-required="true" type="text" name="message" placeholder="Message"/></li>
-            <button id="send_message" title="enter your message here" role="button">Send</button>
+              <li class="contact_li"><label for="contact_name">First/Last Name:</label>
+                <input id="contact_name" role="textbox" aria-required="true" type="text" placeholder="Name" title="First/Last Name" autofocus/></li>
+              <li class="contact_li"><label for="contact_email">Include your email address:</label><input id="contact_email" role="textbox" aria-required="true" type="email" name="email" title="email address" placeholder="Email"/></li>
+              <li id="contact_li"><label for="contact_message">Questions, comments, and compliments:</label>
+                <textarea id="contact_message" role="textbox" rows=5 cols=110 aria-required="true" type="textbox" name="message" placeholder="Message"></textarea></li>
+            <button class="contact_button"id="send_message" title="enter your message here" role="button">Send</button>
             </fieldset>
           </form>
         </section>
