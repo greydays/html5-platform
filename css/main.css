@@ -32,11 +32,18 @@ a {
 time {
   font-size: 14px;
 }
+audio {
+  margin: 10px;
+  margin-left: 35px;
+}
 .blog_video {
   margin-left: 200px;
 }
 .blog {
   display: inline;
+}
+article:nth-child(even) {
+  background-color: #f6f5f5;
 }
 /*----------HEADER------------*/
 header {
@@ -93,12 +100,11 @@ footer p {
 .post {
   padding: 5%;
 }
-.dolor, .tempor {
-  background-color: #f6f5f5
-}
+
 .top {
   float: right;
 }
+
 /*----------CONTACT------------*/
 .contributors {
   margin: 5%;
@@ -114,7 +120,9 @@ footer p {
 }
 /*----------ORDER FORM------------*/
 .shirt {
- float: left;
+  display: inline-block;
+  width: 50%;
+  float: left;
 }
 .container {
   width: 100%;

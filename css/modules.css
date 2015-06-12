@@ -16,6 +16,7 @@ input:not([type=radio]) {
 .submit {
   text-align: center;
 }
+
 /*----------Order Page------------*/
 .order_button {
   width: 200px;
