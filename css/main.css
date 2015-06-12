@@ -32,7 +32,7 @@ a {
 time {
   font-size: 14px;
 }
-video {
+.blog_video {
   margin-left: 200px;
 }
 .blog {
@@ -114,11 +114,32 @@ footer p {
 }
 /*----------ORDER FORM------------*/
 .shirt {
-  display: inline-block;
+ float: left;
 }
-.orderbox {
-  margin-top: 5%;
-  margin-right: 10%;
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
-
+/*----------Photo Booth------------*/
+.photobooth {
+  display: block;
+  width: 425px;
+  border: 2px solid black;
+  margin-bottom: 50px;
+}
+.photobooth li {
+  margin: 0;
+}
+.shirt_blank {
+  background-image: url("../images/shirt.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 300px;
+}
+#canvas {
+  margin-top: 50px;
+}
 

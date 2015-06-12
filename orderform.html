@@ -21,25 +21,25 @@
         <a class="navlink flex-item-3 this_page"href="orderform.html">Store</a>
       </nav>
     </header>
-    <main role="main">
+    <main class="container" role="main">
       <section class="shirt">
         <h1>T-shirts!</h1>
         <p>Brand new! 100% Cotton</p>
         <img src="http://i.imgur.com/jBqMNGJ.png" alt="Est Laboram logo T-shirt">
+        <section class="photobooth">
+          <ol>
+            <li>
+              <video id="video" width="320" height="240" autoplay></video>
+            </li>
+            <li>
+              <button id="snap">Snap Photo</button>
+            </li>
+            <li class="shirt_blank">
+              <canvas id="canvas" width="256" height="192"></canvas>
+            </li>
+          </ol>
+        </section>
       </section>
-     <!-- <section class="photobooth">
-        <ol>
-          <li>
-            <video id="video" width="320" height="240" autoplay></video>
-          </li>
-          <li>
-            <button id="snap">Snap Photo</button>
-          </li>
-          <li class="shirt_blank">
-            <canvas id="canvas" width="320" height="240"></canvas>
-          </li>
-        </ol>
-      </section> -->
       <section class="order_form">
         <form role="form">
           <fieldset class="order_fieldset">
@@ -144,10 +144,11 @@
           </fieldset>
         </form>
       </section>
-      <footer class="bottomorder" role="contentinfo">
-        <p>&copy 2015 - Fellow Coders LLC</p>
-      </footer>
     </main>
+    <footer role="contentinfo">
+      <p>&copy 2015 - Fellow Coders LLC</p>
+    </footer>
+
     <script type="text/javascript" src="js/photo.js"></script>
   </body>
 </html>
