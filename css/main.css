@@ -30,11 +30,18 @@ a:link {
 time {
   font-size: 14px;
 }
+audio {
+  margin: 10px;
+  margin-left: 35px;
+}
 video {
   margin-left: 200px;
 }
 .blog {
   display: inline;
+}
+article:nth-child(even) {
+  background-color: #f6f5f5;
 }
 /*----------HEADER------------*/
 header {
@@ -96,9 +103,7 @@ footer p {
 .post {
   padding: 5%;
 }
-.dolor, .tempor{
-  background-color: #f6f5f5
-}
+
 
 /*----------CONTACT------------*/
 .contributors {
@@ -118,6 +123,7 @@ footer p {
 /*----------ORDER FORM------------*/
 .shirt {
   display: inline-block;
+  width: 50%
 }
 .orderbox {
   margin-top: 5%;
