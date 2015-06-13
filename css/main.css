@@ -1,10 +1,6 @@
 
 /*----------BASE------------*/
-
-html {
-  margin: 10px;
-  }
-h1, h2, h3, time, li{
+h1, h2, h3, time, li {
   font-family: 'Montserrat', sans-serif;
   margin-left: 35px;
   color: #3f5364;
@@ -23,100 +19,108 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-size: 18px;
+  color: #fd902d;
 }
-a:link {
-    color: #3f5364
+a {
+  color: #3f5364;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 time {
   font-size: 14px;
 }
-video {
+audio {
+  margin: 10px;
+  margin-left: 35px;
+}
+.blog_video {
   margin-left: 200px;
 }
 .blog {
   display: inline;
 }
+article:nth-child(even) {
+  background-color: #f6f5f5;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 /*----------HEADER------------*/
 header {
   background-color: #dddddd;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .logo {
   padding-left: 25px;
   padding-bottom: 10px;
   padding-top: 15px;
   float: left;
-
 }
 .navlink {
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  color:#3f5364;
   text-transform: uppercase;
   padding: 30px;
 }
-
 .flex-container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-content: flex-end;
   align-items: flex-end;
 }
-/*----------BODY------------*/
-
+.this_page {
+  color: #fd902d;
+}
+/*----------home------------*/
 .city {
-  float:right;
+  float: right;
   margin-top: 25px;
-  margin-right:25px;
+  margin-right: 25px;
+  width: 60%;
 }
 .front {
-  width: 30%;
-
+  width: 300px;
 }
 /*----------FOOTER------------*/
-.bottom {
+footer {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
   font-size: 14px;
-  margin-top: 30px;
+  margin-top: 50px;
   padding-bottom: 20px;
-  padding-left:40%;
-  color:#a6a6a6;
-
-
+  color: #a6a6a6;
+  clear: both;
+  border-top: 1px solid #a6a6a6;
+}
+footer p {
+  margin-left: 0px;
 }
 /*----------POSTS------------*/
 .post {
   padding: 5%;
 }
-.dolor, .tempor{
-  background-color: #f6f5f5
+.top {
+  float: right;
 }
-
 /*----------CONTACT------------*/
-.contributors {
-  margin: 5%;
+.contact_info {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .contact {
   margin: 10px;
-  font-family: 'Montserrat', sans-serif;
-  color: #3f5364;
 }
-
 .email {
   margin: 10px;
-
-
 }
 .inline {
-    display: inline;
+  display: inline;
 }
-/*----------ORDER FORM------------*/
-.shirt {
-  display: inline-block;
-}
-.orderbox {
-  margin-top: 5%;
-  margin-right: 10%;
-}
-
-
