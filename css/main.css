@@ -1,8 +1,5 @@
 
 /*----------BASE------------*/
-html {
-  margin: 10px;
-  }
 h1, h2, h3, time, li {
   font-family: 'Montserrat', sans-serif;
   margin-left: 35px;
@@ -45,9 +42,18 @@ audio {
 article:nth-child(even) {
   background-color: #f6f5f5;
 }
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 /*----------HEADER------------*/
 header {
   background-color: #dddddd;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .logo {
   padding-left: 25px;
@@ -70,14 +76,15 @@ header {
 .this_page {
   color: #fd902d;
 }
-/*----------BODY------------*/
+/*----------home------------*/
 .city {
   float: right;
   margin-top: 25px;
   margin-right: 25px;
+  width: 60%;
 }
 .front {
-  width: 30%;
+  width: 300px;
 }
 /*----------FOOTER------------*/
 footer {
@@ -100,14 +107,13 @@ footer p {
 .post {
   padding: 5%;
 }
-
 .top {
   float: right;
 }
-
 /*----------CONTACT------------*/
-.contributors {
-  margin: 5%;
+.contact_info {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .contact {
   margin: 10px;
@@ -118,36 +124,3 @@ footer p {
 .inline {
   display: inline;
 }
-/*----------ORDER FORM------------*/
-.shirt {
-  display: inline-block;
-  width: 50%;
-  float: left;
-}
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-/*----------Photo Booth------------*/
-.photobooth {
-  display: block;
-  width: 425px;
-  border: 2px solid black;
-  margin-bottom: 50px;
-}
-.photobooth li {
-  margin: 0;
-}
-.shirt_blank {
-  background-image: url("../images/shirt.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  height: 300px;
-}
-#canvas {
-  margin-top: 50px;
-}
-

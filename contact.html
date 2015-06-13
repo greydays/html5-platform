@@ -1,12 +1,12 @@
 <!doctype html>
-<html manifest="manifest.appcache" class="no-js" lang="">
+<html manifest="manifest.appcache" class="no-js" lang="EN">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Est Laborum - Contact</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/modules.css">
@@ -21,8 +21,8 @@
         <a class="navlink flex-item-3" href="orderform.html">Store</a>
       </nav>
     </header>
-    <main role="main">
-      <section class="contributors">
+    <main class="container" role="main">
+      <section class="contact_info">
         <h1 class="contact">Contact US</h1>
         <h2>Est Laborum Contributors</h2>
         <ul class="email">
@@ -41,24 +41,30 @@
           <li>Seattle, WA 98109</li>
         </ul>
       </section>
-        <section>
-          <form class="contact" role="form">
-            <fieldset class="contact_fieldset">
-            <legend class="contact_legend">Personal Information</legend>
+      <section>
+        <h2>We welcome your feedback!</h2>
+        <form class="contact" role="form">
+          <fieldset class="contact_fieldset">
             <ul>
-              <li class="contact_li"><label for="contact_name">First/Last Name:</label>
-                <input id="contact_name" role="textbox" aria-required="true" type="text" placeholder="Name" title="First/Last Name" autofocus/></li>
-              <li class="contact_li"><label for="contact_email">Include your email address:</label><input id="contact_email" role="textbox" aria-required="true" type="email" name="email" title="email address" placeholder="Email"/></li>
-              <li id="contact_li"><label for="contact_message">Questions, comments, and compliments:</label>
-                <textarea id="contact_message" role="textbox" rows=5 cols=110 aria-required="true" type="textbox" name="message" placeholder="Message"></textarea></li>
+              <li class="contact_li">
+                <label for="contact_name">First/Last Name:</label>
+                <input id="contact_name" role="textbox" aria-required="true" type="text" placeholder="Name" title="First/Last Name" autofocus/>
+              </li>
+              <li class="contact_li">
+                <label for="contact_email">Include your email address:</label>
+                <input id="contact_email" role="textbox" aria-required="true" type="email" name="email" title="email address" placeholder="Email"/>
+              </li>
+              <li id="contact_li">
+                <label for="contact_message">Questions, comments, and compliments:</label>
+                <textarea id="contact_message" role="textbox" rows=5 cols=110 aria-required="true" type="textbox" name="message" placeholder="Message"></textarea>
+              </li>
             <button class="contact_button"id="send_message" title="enter your message here" role="button">Send</button>
-            </fieldset>
-          </form>
-        </section>
+          </fieldset>
+        </form>
       </section>
-      <footer role="contentinfo">
-        <p>&copy 2015 - Fellow Coders LLC</p>
-      </footer>
     </main>
+    <footer role="contentinfo">
+      <p>&copy 2015 - Fellow Coders LLC</p>
+    </footer>
   </body>
 </html>
