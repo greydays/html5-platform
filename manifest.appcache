@@ -1,17 +1,16 @@
 CACHE MANIFEST
-#6-12-15 v1
+#6-13-15 v1.2
 
-CACHE
+CACHE:
 index.html
 contact.html
 orderform.html
-main.css
-modules.css
-reset.css
-images/photo.js
-js/photo.js
-video/Welcome Dr Solly June 2015.mp4
+css/main.css
+css/modules.css
+css/reset.css
+images/shirt.png
+js/main.js
+video/Welcome_2015.mp4
 
-NETWORK
-http://i.imgur.com/JdY9x7e.png
-http://static.tumblr.com/636d26822366e750078359ab5723f9b9/iaskgr4/BKLmovme2/tumblr_static_6865297897_e71010540f_z.jpg
+NETWORK:
+*
