@@ -55,10 +55,7 @@ legend {
   float: left;
 }
 /*----------Photo Booth------------*/
-#video {
-  width: 320px;
-  height: 240px;
-}
+#video,
 #canvas {
   width: 256px;
   height: 192px;
