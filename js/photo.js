@@ -33,4 +33,3 @@ window.addEventListener("DOMContentLoaded", function() {
     context.drawImage(video, 0, 0, 256, 192);
   });
 }, false);
-

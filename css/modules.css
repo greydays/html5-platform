@@ -9,6 +9,9 @@ form li {
  border-radius: 2px;
  min-width: 220px;
 }
+label, input, button, textarea {
+  cursor: pointer;
+}
 input:not([type=radio]) {
   margin: 2px;
   width: 150px;
@@ -16,7 +19,11 @@ input:not([type=radio]) {
 .submit {
   text-align: center;
 }
-
+legend {
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+}
 /*----------Order Page------------*/
 .order_button {
   width: 200px;
@@ -25,7 +32,6 @@ input:not([type=radio]) {
   text-transform: uppercase;
 }
 .order_form {
-  cursor: pointer;
   font-family: Arial, sans-serif;
   font-size: 12px;
   background-color: #ddd;
@@ -35,11 +41,6 @@ input:not([type=radio]) {
   border-radius: 8px;
   float: right;
 }
-.order_legend {
-  font-weight: bold;
-  padding-right: 5px;
-  padding-left: 5px;
-}
 .order_fieldset {
   border: 2px solid black;
   border-radius: 4px;
@@ -47,6 +48,40 @@ input:not([type=radio]) {
   margin-top: 10px;
   width: 250px;
   background-color: #dddddd;
+}
+.shirt {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+/*----------Photo Booth------------*/
+#video {
+  width: 320px;
+  height: 240px;
+}
+#canvas {
+  width: 256px;
+  height: 192px;
+}
+.photobooth {
+  display: block;
+  width: 425px;
+  border: 2px solid black;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.photobooth li, .photobooth p {
+  margin: 0;
+  margin-top: 10px;
+}
+.shirt_blank {
+  background-image: url("../images/shirt.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+#canvas {
+  margin-top: 50px;
 }
 /*----------Contact Page------------*/
 .contact_form {
@@ -57,18 +92,12 @@ input:not([type=radio]) {
   width: 100%;
   background-color: #dddddd;
 }
-.contact_legend {
-  font-weight: bold;
-  padding-right: 5px;
-  padding-left: 5px;
-}
 .contact_fieldset {
   border: 2px solid black;
   border-radius: 4px;
   padding: 10px;
   margin-top: 10px;
   width: 80%;
-  margin-left: 10%;
   background-color: #dddddd;
 }
 .contact_button {
@@ -93,4 +122,3 @@ input:not([type=radio]) {
   margin-top: 5px;
   margin-left: 5px;
 }
-

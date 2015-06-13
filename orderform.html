@@ -1,12 +1,12 @@
 <!doctype html>
-<html manifest="manifest.appcache"class="no-js" lang="EN">
+<html manifest="manifest.appcache" class="no-js" lang="EN">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Est Laborum - Store</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/modules.css">
@@ -18,7 +18,7 @@
         <a class="navlink flex-item-1" href="index.html">Home</a>
         <a class="navlink flex-item-2" href="blog.html">Blog</a>
         <a class="navlink flex-item-3" href="contact.html">Contact</a>
-        <a class="navlink flex-item-3 this_page"href="orderform.html">Store</a>
+        <a class="navlink flex-item-3 this_page" href="orderform.html">Store</a>
       </nav>
     </header>
     <main class="container" role="main">
@@ -29,13 +29,16 @@
         <section class="photobooth">
           <ol>
             <li>
-              <video id="video" width="320" height="240" autoplay></video>
+              <p>Put your face on the back of your shirt!</p>
             </li>
             <li>
-              <button id="snap">Snap Photo</button>
+              <video id="video"autoplay></video>
+            </li>
+            <li>
+              <button id="snap" class="order_button">Snap Photo</button>
             </li>
             <li class="shirt_blank">
-              <canvas id="canvas" width="256" height="192"></canvas>
+              <canvas id="canvas"></canvas>
             </li>
           </ol>
         </section>
@@ -71,7 +74,7 @@
               </li>
           </fieldset>
           <fieldset class="order_fieldset">
-            <legend class="order_legend">Billing Information</legend>
+            <legend>Billing Information</legend>
             <ol>
               <li>
                 <label for='name'>Name</label>
@@ -148,7 +151,6 @@
     <footer role="contentinfo">
       <p>&copy 2015 - Fellow Coders LLC</p>
     </footer>
-
     <script type="text/javascript" src="js/photo.js"></script>
   </body>
 </html>
