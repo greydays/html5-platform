@@ -1,3 +1,4 @@
+// camera grab for t-shirt
 // http://www.anotheruiguy.com/ux-design-dev/_book/html5/camera-access.html
 
 window.addEventListener("DOMContentLoaded", function() {
@@ -33,3 +34,23 @@ window.addEventListener("DOMContentLoaded", function() {
     context.drawImage(video, 0, 0, 256, 192);
   });
 }, false);
+
+//http://www.toasteddigital.com/blog/html5-jquery-localstorage-forms.html
+//retrieves localStorage data for form fields
+$(document).ready(function () {
+  function init() {
+    $('.stored').each(function(){
+      var name = $(this).attr('name');
+      var val = $(this).val();
+      if (localStorage[name]) {
+        $(this).val(localStorage[name]);
+      }
+    });
+  }
+  init();
+});
+//stores form data on keyup with class of "stored"
+$('.stored').keyup(function () {
+  localStorage[$(this).attr('name')] = $(this).val();
+});
+
